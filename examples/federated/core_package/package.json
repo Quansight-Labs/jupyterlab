@@ -49,6 +49,8 @@
     "@jupyterlab/launcher-extension": "~4.0.0-alpha.11",
     "@jupyterlab/logconsole": "^4.0.0-alpha.2",
     "@jupyterlab/logconsole-extension": "~4.0.0-alpha.11",
+    "@jupyterlab/lsp": "^4.0.0-alpha.2",
+    "@jupyterlab/lsp-extension": "~4.0.0-alpha.11",
     "@jupyterlab/mainmenu": "^4.0.0-alpha.2",
     "@jupyterlab/mainmenu-extension": "~4.0.0-alpha.11",
     "@jupyterlab/mathjax2-extension": "~4.0.0-alpha.11",
@@ -91,9 +93,10 @@
     "@lumino/properties": "^1.8.1",
     "@lumino/signaling": "^1.10.1",
     "@lumino/virtualdom": "^1.14.1",
-    "@lumino/widgets": "^1.32.0",
+    "@lumino/widgets": "^1.33.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "yjs": "^13.5.34"
   },
   "dependencies": {
     "@jupyterlab/application": "^4.0.0-alpha.11",
@@ -120,6 +123,7 @@
     "@jupyterlab/json-extension": "^4.0.0-alpha.11",
     "@jupyterlab/launcher-extension": "^4.0.0-alpha.11",
     "@jupyterlab/logconsole-extension": "^4.0.0-alpha.11",
+    "@jupyterlab/lsp-extension": "^4.0.0-alpha.11",
     "@jupyterlab/mainmenu-extension": "^4.0.0-alpha.11",
     "@jupyterlab/mathjax2-extension": "^4.0.0-alpha.11",
     "@jupyterlab/notebook-extension": "^4.0.0-alpha.11",
@@ -180,6 +184,7 @@
       "@jupyterlab/inspector",
       "@jupyterlab/launcher",
       "@jupyterlab/logconsole",
+      "@jupyterlab/lsp",
       "@jupyterlab/mainmenu",
       "@jupyterlab/notebook",
       "@jupyterlab/rendermime",
@@ -207,7 +212,8 @@
       "@lumino/virtualdom",
       "@lumino/widgets",
       "react",
-      "react-dom"
+      "react-dom",
+      "yjs"
     ],
     "extensions": [
       "@jupyterlab/application-extension",
@@ -232,6 +238,7 @@
       "@jupyterlab/json-extension",
       "@jupyterlab/launcher-extension",
       "@jupyterlab/logconsole-extension",
+      "@jupyterlab/lsp-extension",
       "@jupyterlab/mainmenu-extension",
       "@jupyterlab/mathjax2-extension",
       "@jupyterlab/notebook-extension",
